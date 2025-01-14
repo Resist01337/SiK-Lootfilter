@@ -1,12 +1,10 @@
 #===============================================================================================================
-# NeverSink's Indepth Loot Filter - for Path of Exile
+# Si(c)K Loot Filter - for Path of Exile 2
 #===============================================================================================================
-# VERSION:  0.2.3
+#
+#
+# BASE CREDITS:
 # AUTHOR:   NeverSink
-#
-# This is a mini-filter designed for early PoE2 EA gameplay. I will eventually replace it with a full-fledged filter
-# With FilterBlade.xyz support. This filter focuses more on highlighting loot, rather than hiding
-#
 # TWITTER: @NeverSinkDev
 # DISCORD: https://discord.gg/mye6xhF
 # TWITCH:  https://www.twitch.tv/neversink
@@ -20,12 +18,31 @@ Show
 Class "Belts"
 BaseType "Heavy Belt"
 Rarity Normal
-SetFontSize 40
-SetTextColor 233 206 75
-SetBorderColor 233 206 75
-PlayAlertSound 6 300
+SetFontSize 55
+SetTextColor 233 11 32
+SetBorderColor 12 32 198
+PlayAlertSound 11 300
+PlayEffect Blue
+MinimapIcon 0 Blue Star
+
+Show
+Class "Jewels"
+SetFontSize 55
+SetTextColor 192 212 12
+SetBorderColor 192 212 12
+PlayAlertSound 11 300
 PlayEffect Yellow
-MinimapIcon 0 Red Star
+MinimapIcon 0 Yellow Star
+
+Show
+Class "Rings" "Amulets"
+Rarity Normal
+SetFontSize 55
+SetTextColor 233 11 32
+SetBorderColor 12 32 198
+PlayAlertSound 11 300
+PlayEffect Blue
+MinimapIcon 0 Blue Star
 
 Show
 Rarity Unique
@@ -305,8 +322,8 @@ Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
 SetTextColor 220 190 132
 SetBackgroundColor 76 31 12
-PlayAlertSound 2 300
-SetFontSize 40
+PlayAlertSound 3 200
+SetFontSize 30
 MinimapIcon 2 White Circle
 
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
