@@ -1,0 +1,5 @@
+# Ignore all files
+*
+
+!README.md
+!Si(c)K Filter.filter
