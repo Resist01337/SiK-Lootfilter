@@ -14,6 +14,7 @@
 # Overrides - Uniques, Valuables
 #--------------------------
 
+#For Headhunter
 Show
 Class "Belts"
 BaseType "Heavy Belt"
@@ -25,17 +26,21 @@ PlayAlertSound 11 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
 
+#For Astramentis
 Show
-Class "Jewels"
+Class "Amulets"
+BaseType "Stellar Amulet"
+Rarity Normal
 SetFontSize 55
-SetTextColor 192 212 12
-SetBorderColor 192 212 12
+SetTextColor 233 11 32
+SetBorderColor 12 32 198
 PlayAlertSound 11 300
-PlayEffect Yellow
-MinimapIcon 0 Yellow Star
+PlayEffect Blue
+MinimapIcon 0 Blue StarShow
 
-Show
-Class "Rings" "Amulets"
+#For Thiefs Torment / Dream Fragments
+Class "Rings"
+BaseType "Emerald Ring" "Sapphire Ring"
 Rarity Normal
 SetFontSize 55
 SetTextColor 233 11 32
@@ -43,6 +48,16 @@ SetBorderColor 12 32 198
 PlayAlertSound 11 300
 PlayEffect Blue
 MinimapIcon 0 Blue Star
+
+Show
+Class "Jewels"
+SetFontSize 55
+
+SetTextColor 192 212 12
+SetBorderColor 192 212 12
+PlayAlertSound 11 300
+PlayEffect Yellow
+MinimapIcon 0 Yellow Star
 
 Show
 Rarity Unique
@@ -57,7 +72,7 @@ SetFontSize 40
 ## Divine Orb Style
 Show
 Class "Currency"
-BaseType "Mirror" "Divine" "Perfect Jeweller's Orb" "Distilled Fear" "Distilled Despair" "Greater Essence of"
+BaseType "Mirror" "Divine" "Perfect Jeweller's Orb" "Distilled Fear" "Distilled Despair" "Greater Essence of" "Distilled Isolation" "Distilled Suffering"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -65,17 +80,6 @@ SetBackgroundColor 255 255 255 255
 PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
-
-Show
-BaseType == "Distilled Isolation" "Distilled Suffering"
-SetFontSize 45
-SetTextColor 255 0 0 255
-SetBorderColor 255 0 0 255
-SetBackgroundColor 255 255 255 255
-PlayAlertSound 6 300
-PlayEffect Red
-MinimapIcon 0 Red Star
-
 
 #--------------------------
 # Gold
@@ -273,7 +277,7 @@ SetFontSize 40
 # Currency Tier B: Regal, Vaal ...
 Show
 Class "Currency"
-BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Lesser Jeweller's Orb" "Regal Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Exalted Orb" "Orb of Annulment" "Orb of Chance"
+BaseType "Gemcutter's Prism" "Vaal Orb" "Chaos Orb" "Artificer's Orb" "Glassblower's Bauble" "Orb of Alchemy" "Exalted Orb" "Orb of Annulment" "Orb of Chance"
 SetTextColor 155 115 032
 SetBorderColor 255 207 132
 SetBackgroundColor 255 255 255
@@ -319,7 +323,7 @@ SetFontSize 40
 Show
 AreaLevel >= 60
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard" "Lesser Jeweller's Orb" "Regal Orb"
 SetTextColor 220 190 132
 SetBackgroundColor 76 31 12
 PlayAlertSound 3 200
@@ -329,7 +333,7 @@ MinimapIcon 2 White Circle
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard"
+BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard" "Lesser Jeweller's Orb" "Regal Orb"
 SetTextColor 220 190 132
 MinimapIcon 2 Grey Circle
 SetFontSize 35
