@@ -324,17 +324,17 @@ Show
 AreaLevel >= 60
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard" "Lesser Jeweller's Orb" "Regal Orb"
-SetTextColor 220 190 32
-SetBackgroundColor 126 31 12
-PlayAlertSound 16 100
+SetTextColor 255 255 255
+SetBackgroundColor 220 50 133
+PlayAlertSound 16 200
 SetFontSize 35
-MinimapIcon 2 White Circle
+MinimapIcon 2 Pink Circle
 
 # Currency Tier C: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard" "Chance Shard" "Lesser Jeweller's Orb" "Regal Orb"
-SetTextColor 220 190 132
+SetTextColor 168 50 143
 MinimapIcon 2 Grey Circle
 SetFontSize 35
 
