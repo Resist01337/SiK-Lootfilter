@@ -81,6 +81,18 @@ PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 
+#For Waystones (Only show T14+T15)
+Hide
+WaystoneTier <= 13
+AreaLevel > 77
+BaseType "Waystone"
+
+#Hide all Gear Magic Items
+Hide
+AreaLevel > 77
+Rarity <= Magic
+Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+
 #--------------------------
 # Gold
 #--------------------------
